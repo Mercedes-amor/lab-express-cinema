@@ -1,0 +1,21 @@
+<div>
+    <a href="/">Bo back</a>
+
+    <img src="{{this.pelicula.image}}" alt="caratula" height="300px">
+    <h2>{{this.pelicula.title}}</h2>
+    <h3>{{this.pelicula.director}}</h3>
+
+    <h4>Stars</h4>
+    <ul>
+        {{#each this.pelicula.stars}}
+        <li>{{this}}</li>
+        {{/each}}
+    </ul>
+
+    <p>{{this.pelicula.description}}</p>
+
+    {{#each this.pelicula.showtimes}}
+        <p>{{this}}</p>
+    {{/each}}
+
+</div>
