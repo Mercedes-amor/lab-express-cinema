@@ -6,3 +6,88 @@ body {
 a {
   color: #00B7FF;
 }
+
+a:hover {
+  color: #053a50;
+}
+/* PÁGINA HOME */
+
+.homeContainer {
+  background-image: url("../images/cinema.jpg");
+  background-size: cover;
+  height: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+}
+
+.homeSubContainer {
+  justify-content: flex-end;
+  margin-left: 55%;
+  margin-top: 10%;
+}
+
+.homeSubContainer h1 {
+  color: white;
+  width: 290px;
+  font-size: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.homeSubContainer button {
+  color: rgb(16, 129, 85);
+  font-size: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 20px;
+  height: 50px;
+  width: 200px;
+}
+
+.homeSubContainer button:hover {
+  color: rgb(255, 255, 255);
+  background-color: #309e65;
+  
+}
+/* PÁGINA MOVIES */
+
+.moviesContainer {
+  width: 800px;
+  margin: 0px 55px 50px 0px;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.peliculaCard {
+  margin: 20px 50px;
+  text-align: center;
+  width: 150px;
+}
+
+
+/* PÁGINA MOVIE DETAIL */
+
+.movieDetailContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.caratula { 
+  display: flex;
+  margin-right: 40px;
+}
+
+.movieDetailCard {
+  width: 700px;
+}
+
+.divShowtimes {
+  display: flex;
+}
+
+.divShowtimes p {
+  margin:0px 5px;
+}
